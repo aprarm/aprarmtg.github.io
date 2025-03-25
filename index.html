@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operation PowerOFF NULL</title>
+  <link rel="icon" type="image/x-icon" href="https://operation-poweroff.com/assets/favicon.ico">
+  <style>
+    *, *::before, *::after {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    :root {
+      --bg: rgb(28, 28, 28);
+    }
+
+    .header img {
+      width: 35%;
+      padding: 20px 40px;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url("https://operation-poweroff.com/assets/background.png");
+      background-color: #1C1C1C;
+      background-position: right 0% bottom 60%;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      margin-top: auto;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .container-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 60%;
+    }
+
+    .content {
+      flex: 1 1 100%;
+      margin: 10px 20px;
+      padding: 20px;
+      color: white;
+      background: rgb(28 28 28 / 15%);
+      border-radius: 15px;
+    }
+
+    .content h1 {
+      font-weight: 700;
+      font-size: 28px;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+    }
+
+    .content p {
+      font-weight: 300;
+      font-size: 18px;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .slider {
+      background-color: white;
+      padding: 2em;
+      overflow: hidden;
+      margin-top: 40px;
+    }
+
+    @keyframes slides {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-58%);
+      }
+    }
+
+    .logos {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .logos:before,
+    .logos:after {
+      position: absolute;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      z-index: 2;
+    }
+
+    .logos:before {
+      left: 0;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    }
+
+    .logos:after {
+      right: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    }
+
+    .logo_items {
+      display: inline-block;
+      animation: 35s slides infinite linear;
+    }
+
+    .logos:hover .logo_items {
+      animation-play-state: paused;
+    }
+
+    .logo_items img {
+      height: 100px;
+      padding-right: 3em;
+    }
+
+    @media (max-width: 1024px) {
+      .container {
+        width: 100%;
+      }
+
+      .header img {
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header img {
+        width: 70%;
+      }
+
+      .container-box {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content h1 {
+        font-size: 20px;
+      }
+
+      .content p {
+        font-size: 16px;
+      }
+
+      .slider img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://operation-poweroff.com/assets/PowerOFF.png" alt="logo">
+    </div>
+    <div class="container-box">
+      <div class="content">
+        <h1>Operation PowerOff NULL</h1>
+        <p>
+          Этот сайт был изъят в рамках международной операции PowerOFF.
+          Операция PowerOFF направлена на закрытие DDoS-сервиса NullForum.
+          <br><br>
+          DDoS-атаки незаконны. Любой, кто использует такие сервисы, может быть привлечён к ответственности.
+          <br><br>
+          Вы будете перенаправлены через несколько секунд. Если этого не произошло, <a href="https://t.me/agent_russian">нажмите сюда</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider">
+    <div class="logos">
+      <div class="logo_items">
+        <img src="https://operation-poweroff.com/assets/logoUS-FBI.svg" alt="FBI">
+        <img src="https://operation-poweroff.com/assets/logoUS-DOJ.png" alt="DOJ">
+        <img src="https://operation-poweroff.com/assets/logoUS-HSI.png" alt="HSI">
+        <img src="https://operation-poweroff.com/assets/logoUS-DOD.png" alt="DOD">
+        <img src="https://operation-poweroff.com/assets/logoUS-DCIS.jpg" alt="DCIS">
+        <img src="https://operation-poweroff.com/assets/logoEU.svg" alt="Europol">
+        <img src="https://operation-poweroff.com/assets/logoDE-BKA.png" alt="BKA">
+        <img src="https://operation-poweroff.com/assets/logoDE-HLKA.png" alt="HLKA">
+        <img src="https://operation-poweroff.com/assets/logoDE-GStA.png" alt="GStA">
+        <img src="https://operation-poweroff.com/assets/logoFR-OFAC.png" alt="OFAC">
+        <img src="https://operation-poweroff.com/assets/logoPT-PSP.png" alt="PSP">
+        <img src="https://operation-poweroff.com/assets/logoPT-PJ.svg" alt="PJ">
+        <img src="https://operation-poweroff.com/assets/logoUK.png" alt="NCA">
+        <img src="https://operation-poweroff.com/assets/logoPL.png" alt="CBZC">
+        <img src="https://operation-poweroff.com/assets/logoLV.png" alt="Latvia">
+        <img src="https://operation-poweroff.com/assets/logoBR.png" alt="Brazil">
+        <img src="https://operation-poweroff.com/assets/logoNL.png" alt="Netherlands">
+        <img src="https://operation-poweroff.com/assets/logoFI-KRP.png" alt="Finland">
+        <img src="https://operation-poweroff.com/assets/logoSE.jpg" alt="Sweden">
+        <img src="https://operation-poweroff.com/assets/logoJP-NPA.png" alt="Japan">
+        <img src="https://operation-poweroff.com/assets/logoCA-RCMP.png" alt="Canada">
+        <img src="https://operation-poweroff.com/assets/logoAU-AFP.png" alt="Australia">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://t.me/agent_russian";
+    }, 5000);
+  </script>
+</body>
+
+</html>
